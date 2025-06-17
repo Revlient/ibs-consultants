@@ -22,8 +22,9 @@ const ProjectsSection: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our portfolio of exceptional architectural projects that
-            showcase our expertise and creativity.
+            Explore our portfolio of exceptional MEP consultancy projects that
+            showcase our technical expertise, innovation, and commitment to
+            building performance.
           </p>
         </div>
 
@@ -41,7 +42,7 @@ const ProjectsSection: React.FC = () => {
         </div>
 
         <div className="flex justify-center mt-12">
-          {visibleCount < projects.length ? (
+          {visibleCount < 7 ? (
             <button
               onClick={showMore}
               className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition-colors duration-300"

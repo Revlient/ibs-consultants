@@ -34,8 +34,9 @@ const ProjectsPage: React.FC = () => {
             Our Projects
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center">
-            Explore our portfolio of exceptional architectural projects across
-            various sectors.
+            Explore our portfolio of exceptional MEP consultancy projects across
+            diverse sectors, including high-rise buildings, commercial spaces,
+            and infrastructure.
           </p>
         </div>
       </div>
