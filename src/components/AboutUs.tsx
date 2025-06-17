@@ -11,8 +11,9 @@ const AboutUs: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A leading architecture and construction firm dedicated to creating
-            exceptional spaces that inspire and endure.
+            A leading Electro-Mechanical (MEP) systems consultancy dedicated to
+            engineering innovative, sustainable, and high-performance building
+            solutions.
           </p>
         </div>
 
@@ -21,24 +22,24 @@ const AboutUs: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-900">Our Story</h3>
             <p className="text-gray-700">
               At IBS Consultants, we specialize in delivering innovative and
-              high-quality construction solutions that shape the way people
-              live, work, and connect. Our mission is rooted in a clear
-              vision—to design and build spaces that are not only functional and
-              durable but also inspiring and purposeful.
+              high-quality Electro-Mechanical (MEP) systems consultancy that
+              enhance the performance, safety, and sustainability of buildings
+              and infrastructure. Our mission is clear—to design and implement
+              MEP systems that are not only efficient and reliable but also
+              aligned with the evolving needs of modern environments.
             </p>
             <p className="text-gray-700">
-              We operate with a multidisciplinary team of experts in
-              architecture, structural engineering, interior design, and
-              construction management. This integrated approach ensures that
-              every project we undertake is executed with precision, efficiency,
-              and a deep understanding of our clients’ unique needs.
+              We operate with a dedicated team of experts in mechanical,
+              electrical, plumbing, fire protection, and building automation
+              systems. This integrated approach ensures every project benefits
+              from precision engineering, smart design, and seamless
+              coordination across disciplines.
             </p>
             <p className="text-gray-700">
-              What truly defines us is our dedication to quality,
+              What truly defines us is our commitment to technical excellence,
               sustainability, and client satisfaction. We believe that every
-              structure should stand as a testament to thoughtful planning,
-              responsible building practices, and a commitment to long-term
-              value.
+              system we design should serve as a benchmark for innovation,
+              energy efficiency, and long-term performance.
             </p>
           </div>
 

@@ -24,8 +24,9 @@ const Footer: React.FC = () => {
               {/* <span className="ml-2 text-xl font-bold text-white">IBS Consultants</span> */}
             </Link>
             <p className="text-gray-400 mb-6">
-              Creating exceptional spaces that inspire and transform lives
-              through innovative architecture and quality construction.
+              Empowering spaces that perform and endure through innovative
+              electro-mechanical (MEP) systems and sustainable engineering
+              solutions.
             </p>
             <div className="flex space-x-4">
               <SocialLink icon={<Facebook className="h-5 w-5" />} href="#" />
@@ -65,7 +66,8 @@ const Footer: React.FC = () => {
               <li className="flex">
                 <MapPin className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
                 <span className="text-gray-400">
-                  M/S Intelligent Building Systems Door no: 35/1181 A1, CCRA-19, <br />
+                  M/S Intelligent Building Systems Door no: 35/1181 A1, CCRA-19,{" "}
+                  <br />
                   Changampuzha road, Edapally P.O., Kochi-682024
                 </span>
               </li>
@@ -75,7 +77,9 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">ibsconsultants@yahoo.co.uk</span>
+                <span className="text-gray-400">
+                  ibsconsultants@yahoo.co.uk
+                </span>
               </li>
             </ul>
           </div>

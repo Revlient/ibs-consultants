@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             Building <span className="text-blue-400">Excellence</span>, Crafting <span className="text-blue-400">Experiences</span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-100 mb-10">
-            Award-winning architecture and construction firm dedicated to creating exceptional spaces that inspire.
+            Delivering innovative and sustainable MEP solutions that power smart buildings and efficient infrastructure.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
