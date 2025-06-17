@@ -29,7 +29,7 @@ const WhyChooseUs: React.FC = () => {
           <FeatureCard
             icon={<Users className="h-12 w-12 text-blue-600" />}
             title="Expert Team"
-            description="Our team of skilled professionals brings decades of combined experience in architecture and construction."
+            description="Our team of skilled professionals brings decades of combined experience in electro-mechanical (MEP) systems design and consulting for complex and large-scale projects."
           />
           <FeatureCard
             icon={<Clock className="h-12 w-12 text-blue-600" />}
