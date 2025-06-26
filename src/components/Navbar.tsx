@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
               <MobileNavLink to="/#about" label="About" onClick={handleNavClick} />
               <MobileNavLink to="/#services" label="Services" onClick={handleNavClick} />
               <MobileNavLink to="/projects" label="Projects" onClick={handleNavClick} />
-              <MobileNavLink to="/#testimonials" label="Testimonials" onClick={handleNavClick} />
+              <MobileNavLink to="/#clients" label="Clients" onClick={handleNavClick} />
               <MobileNavLink to="/#contact" label="Contact" onClick={handleNavClick} />
             </div>
           </div>
