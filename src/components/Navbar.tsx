@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
             <NavLink to="/#about" label="About" isScrolled={isScrolled} onClick={handleNavClick} />
             <NavLink to="/#services" label="Services" isScrolled={isScrolled} onClick={handleNavClick} />
             <NavLink to="/projects" label="Projects" isScrolled={isScrolled} onClick={handleNavClick} />
-            <NavLink to="/#testimonials" label="Testimonials" isScrolled={isScrolled} onClick={handleNavClick} />
+            <NavLink to="/#clients" label="Our clients" isScrolled={isScrolled} onClick={handleNavClick} />
             <NavLink to="/#contact" label="Contact" isScrolled={isScrolled} onClick={handleNavClick} />
           </div>
 
