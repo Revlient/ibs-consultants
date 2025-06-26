@@ -1,50 +1,7 @@
 import { Project } from "../types";
 
 export const projects: Project[] = [
-  {
-    id: "1",
-    title: "ABAAM KOCHI",
-    category: "Apartments",
-    description:
-      "Aute culpa pariatur consectetur elit. Nulla sunt magna voluptate cupidatat consectetur veniam nulla deserunt laborum dolore ut sunt. In exercitation pariatur elit id. Ea sint adipisicing sit duis sunt ex minim ut quis voluptate eu minim. Veniam nulla in tempor ut consectetur adipisicing magna fugiat excepteur ex. Amet pariatur tempor velit est consectetur officia adipisicing deserunt consectetur. Nisi est dolore incididunt dolor nisi aute.",
-    shortDescription: "Qui excepteur pariatur mollit eu duis amet.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/APARTMENTS/ABAAM KOCHI.webp",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Steel frame with concrete core" },
-      { label: "Exterior", value: "Glass curtain wall with aluminum panels" },
-      { label: "Sustainability", value: "LEED Platinum certified" },
-      {
-        label: "Special Features",
-        value: "Healing gardens, natural light wells",
-      },
-    ],
-  },
-  {
-    id: "2",
-    title: "EDEN GARDEN PANDALAM",
-    category: "Auditorium",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/AUDITORIUM/EDENGARDEN PANDALAM11.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
+ 
   {
     id: "3",
     title: "BHIMA ALAPPUZHA",
@@ -67,33 +24,6 @@ export const projects: Project[] = [
       { label: "Units", value: "124 mixed units" },
       { label: "Sustainability", value: "Energy Star certified" },
       { label: "Special Features", value: "Waterfront promenade, green roof" },
-    ],
-  },
-  {
-    id: "4",
-    title: "Mannam Ayurveda College",
-    category: "Educational",
-    description:
-      "Exercitation nulla labore amet id nisi cupidatat. Est ullamco qui minim in. Aliquip proident excepteur in labore culpa sit in id fugiat velit dolor occaecat adipisicing. Et eu duis elit Lorem sunt adipisicing nisi ipsum quis ea eu.",
-    shortDescription:
-      "Id ea non nisi non sint voluptate eiusmod duis in sunt.",
-    location: '',
-    year: 2024,
-    client: '',
-    area: '',
-    imageUrl: 'images/projects/EDUCATIONAL INSTITUTE/MANNAM AYURVEDA COLLEGE.jpg',
-    galleryImages: [
-      '',
-      '',
-      '',],
-    specifications: [
-      { label: "Structure Type", value: "Wood and steel hybrid" },
-      { label: "Exterior", value: "Cedar siding and natural stone" },
-      { label: "Sustainability", value: "Net-zero energy design" },
-      {
-        label: "Special Features",
-        value: "Indoor-outdoor living spaces, smart home integration",
-      },
     ],
   },
   {
@@ -152,82 +82,9 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    id: "7",
-    title: "LUXON TATA",
-    category: "Showroom",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/SHOWROOM PROJECTS/LUXON TATA.jpg",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
-  {
-    id: "8",
-    title: "BLESS HOMES",
-    category: "Apartments",
-    description:
-      "Aute culpa pariatur consectetur elit. Nulla sunt magna voluptate cupidatat consectetur veniam nulla deserunt laborum dolore ut sunt. In exercitation pariatur elit id. Ea sint adipisicing sit duis sunt ex minim ut quis voluptate eu minim. Veniam nulla in tempor ut consectetur adipisicing magna fugiat excepteur ex. Amet pariatur tempor velit est consectetur officia adipisicing deserunt consectetur. Nisi est dolore incididunt dolor nisi aute.",
-    shortDescription: "Qui excepteur pariatur mollit eu duis amet.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/APARTMENTS/BLESS HOMES.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Steel frame with concrete core" },
-      { label: "Exterior", value: "Glass curtain wall with aluminum panels" },
-      { label: "Sustainability", value: "LEED Platinum certified" },
-      {
-        label: "Special Features",
-        value: "Healing gardens, natural light wells",
-      },
-    ],
-  },
-  {
-    id: "9",
-    title: "HOTEL PRASANTHI",
-    category: "Apartments",
-    description:
-      "Aute culpa pariatur consectetur elit. Nulla sunt magna voluptate cupidatat consectetur veniam nulla deserunt laborum dolore ut sunt. In exercitation pariatur elit id. Ea sint adipisicing sit duis sunt ex minim ut quis voluptate eu minim. Veniam nulla in tempor ut consectetur adipisicing magna fugiat excepteur ex. Amet pariatur tempor velit est consectetur officia adipisicing deserunt consectetur. Nisi est dolore incididunt dolor nisi aute.",
-    shortDescription: "Qui excepteur pariatur mollit eu duis amet.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/APARTMENTS/HOTEL PRASANTHI.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Steel frame with concrete core" },
-      { label: "Exterior", value: "Glass curtain wall with aluminum panels" },
-      { label: "Sustainability", value: "LEED Platinum certified" },
-      {
-        label: "Special Features",
-        value: "Healing gardens, natural light wells",
-      },
-    ],
-  },
+  
+ 
+
   {
     id: "10",
     title: "SREEPAVANAPURI APARTMENTS",
@@ -251,50 +108,8 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    id: "11",
-    title: "ST MAXIMILAN KOLBE SEMINARY",
-    category: "Apartments",
-    description:
-      "Aute culpa pariatur consectetur elit. Nulla sunt magna voluptate cupidatat consectetur veniam nulla deserunt laborum dolore ut sunt. In exercitation pariatur elit id. Ea sint adipisicing sit duis sunt ex minim ut quis voluptate eu minim. Veniam nulla in tempor ut consectetur adipisicing magna fugiat excepteur ex. Amet pariatur tempor velit est consectetur officia adipisicing deserunt consectetur. Nisi est dolore incididunt dolor nisi aute.",
-    shortDescription: "Qui excepteur pariatur mollit eu duis amet.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/APARTMENTS/ST MAXIMILAN KOLBE SEMINARY.webp",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Steel frame with concrete core" },
-      { label: "Exterior", value: "Glass curtain wall with aluminum panels" },
-      { label: "Sustainability", value: "LEED Platinum certified" },
-      {
-        label: "Special Features",
-        value: "Healing gardens, natural light wells",
-      },
-    ],
-  },
-  {
-    id: "12",
-    title: "ADLUX CONVENTION CENTER",
-    category: "Auditorium",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/AUDITORIUM/ADLUX CONVENTION CENTER.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
+
+  
   {
     id: "13",
     title: "mannam-nss-2",
@@ -316,27 +131,7 @@ export const projects: Project[] = [
       { label: "Parking", value: "420242024 spaces underground" },
     ],
   },
-  {
-    id: "14",
-    title: "ST.AGUSTINE CHURCH AROOR",
-    category: "Auditorium",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/AUDITORIUM/ST.AGUSTINE CHURCH AROOR.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
+ 
   {
     id: "15",
     title: "MAHESHWARI TEXTILES",
@@ -358,27 +153,7 @@ export const projects: Project[] = [
       { label: "Parking", value: "420242024 spaces underground" },
     ],
   },
-  {
-    id: "16",
-    title: "NOVELTY TEXTILES",
-    category: "Commercial",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/COMMERCIAL BUILDINGS/NOVELTY TEXTILES.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
+
   {
     id: "17",
     title: "GEMS EXPANSION",
@@ -400,48 +175,8 @@ export const projects: Project[] = [
       { label: "Parking", value: "420242024 spaces underground" },
     ],
   },
-  {
-    id: "18",
-    title: "ICD KOLLAM",
-    category: "Educational",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/EDUCATIONAL INSTITUTE/ICD KOLLAM.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
-  {
-    id: "19",
-    title: "AHALYA EYE FOUNDATION HOSPITAL",
-    category: "Hospitals",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/HOSPITAL PROJECTS/AHALYA EYE FOUNDATION HOSPITAL.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
+ 
+ 
   {
     id: "20",
     title: "TMM",
@@ -463,48 +198,8 @@ export const projects: Project[] = [
       { label: "Parking", value: "420242024 spaces underground" },
     ],
   },
-  {
-    id: "21",
-    title: "Unity Hospital",
-    category: "Hospitals",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/HOSPITAL PROJECTS/Unity Hospital.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
-  {
-    id: "22",
-    title: "Pushpagiri Hospital",
-    category: "Hospitals",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/HOSPITAL PROJECTS/Pushpagiri Hospital.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
+  
+  
   {
     id: "23",
     title: "TRANSASIA",
@@ -526,36 +221,7 @@ export const projects: Project[] = [
       { label: "Parking", value: "420242024 spaces underground" },
     ],
   },
-  {
-    id: "24",
-    title: "AUTOBAHN RTC PUNE",
-    category: "Showroom",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/SHOWROOM PROJECTS/AUTOBAHN RTC PUNE.jpg",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
+  
   {
     id: "25",
     title: "BRIDGEWAY MOTORS",
