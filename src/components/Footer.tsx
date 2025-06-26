@@ -51,12 +51,11 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2">
-              <FooterLink to="/#services" label="Architectural Design" />
-              <FooterLink to="/#services" label="Interior Design" />
-              <FooterLink to="/#services" label="Construction Management" />
-              <FooterLink to="/#services" label="Sustainable Design" />
-              <FooterLink to="/#services" label="Urban Planning" />
-              <FooterLink to="/#services" label="Renovation & Restoration" />
+              <FooterLink to="/#services" label="Electrical Systems" />
+              <FooterLink to="/#services" label="Fire Protection Systems" />
+              <FooterLink to="/#services" label="HVAC Systems" />
+              <FooterLink to="/#services" label="ELV Systems" />
+              <FooterLink to="/#services" label="Plumbing Systems" />
             </ul>
           </div>
 
@@ -73,7 +72,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">+91-9388604525</span>
+                <span className="text-gray-400">+91-484-2338962</span>
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />

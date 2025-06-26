@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img src="images/logo.jpg" className='h-12 w-12' alt="" />
-            <span className="ml-2 text-xl font-bold text-white">IBS Consultants</span>
+            <span className={`ml-2 text-lg font-bold text-white `}>Intelligent Building System Consultants</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden bg-slate-400 rounded-lg p-2 mt-4 pb-4">
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-4"> 
               <MobileNavLink to="/" label="Home" onClick={handleNavClick} />
               <MobileNavLink to="/#about" label="About" onClick={handleNavClick} />
               <MobileNavLink to="/#services" label="Services" onClick={handleNavClick} />

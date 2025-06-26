@@ -60,7 +60,6 @@ const ContactUs: React.FC = () => {
                   <h4 className="text-lg font-semibold text-gray-900 mb-1">
                     Phone
                   </h4>
-                  <p className="text-gray-700">+91-9388604525</p>
                   <p className="text-gray-700">+91-484-2338962</p>
                   <p className="text-gray-700">+91-484-7968073</p>
                 </div>

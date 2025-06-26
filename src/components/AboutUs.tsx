@@ -21,25 +21,26 @@ const AboutUs: React.FC = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-900">Our Story</h3>
             <p className="text-gray-700">
-              At IBS Consultants, we specialize in delivering innovative and
-              high-quality Electro-Mechanical (MEP) systems consultancy that
-              enhance the performance, safety, and sustainability of buildings
-              and infrastructure. Our mission is clear—to design and implement
-              MEP systems that are not only efficient and reliable but also
-              aligned with the evolving needs of modern environments.
+              IBS CONSULTANTS are an established consortium of multidisciplined
+              professional engineers working together with the aim and objective
+              of providing total consultancy for building services from a single
+              window. Thus we are in a position to make significant
+              contributions to project covering:
             </p>
             <p className="text-gray-700">
-              We operate with a dedicated team of experts in mechanical,
-              electrical, plumbing, fire protection, and building automation
-              systems. This integrated approach ensures every project benefits
-              from precision engineering, smart design, and seamless
-              coordination across disciplines.
+              Our strength lies in the apex body of competent engineers
+              qualified and well experienced in India and abroad. The curriculum
+              vitae of key personnel of consultants team stands testimony to the
+              above facts. Our expert team of engineers designing and supporting
+              the interdependent building services as a single unit solutions
+              expert agency confers many benefits to vital project. From
+              superior and more effective co-ordination it is often possible to
+              achieve better optimization and design logistics commencing from
+              project conceptualization to services integration and
+              implementation.
             </p>
-            <p className="text-gray-700">
-              What truly defines us is our commitment to technical excellence,
-              sustainability, and client satisfaction. We believe that every
-              system we design should serve as a benchmark for innovation,
-              energy efficiency, and long-term performance.
+            <p className="text-gray-700 font-medium">
+              "RELATIONSHIP AND TRUST ARE OUR FOUNDATIONS OF GROWTH"
             </p>
           </div>
 

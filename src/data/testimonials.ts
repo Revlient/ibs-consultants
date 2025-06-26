@@ -5,32 +5,49 @@ export const testimonials: Testimonial[] = [
     id: '1',
     name: 'Sarah Johnson',
     position: 'CEO',
-    company: 'Johnson Healthcare Group',
-    content: 'Working with this team on our medical center was an exceptional experience. Their attention to detail and innovative approach to healthcare design has resulted in a facility that not only meets but exceeds our expectations. The thoughtful integration of healing environments has been praised by both staff and patients.',
-    imageUrl: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    company: 'Asianet',
+    content: 'We are extremely satisfied with the overall experience. The communication was smooth, the process was seamless, and the final outcome exceeded our expectations.',
+    imageUrl: 'images/clients/LOGOS/ASIANET.jpg'
   },
   {
     id: '2',
     name: 'Michael Rodriguez',
     position: 'Development Director',
-    company: 'Urban Development Partners',
-    content: 'The architectural vision and execution displayed in our residential tower project was truly remarkable. From the initial concept to the final delivery, the team demonstrated exceptional professionalism and creativity. The result is a landmark building that has set a new standard in our market.',
-    imageUrl: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-  },
+    company: 'FEDERAL BANK',
+    content: 'The experience was smooth and impressive from start to finish. The team was responsive, reliable, and exceeded our expectations in every aspect. We’re genuinely pleased with the results',
+    imageUrl: 'images/clients/LOGOS/FEDERAL BANK.jpg'
+    },
   {
     id: '3',
     name: 'Emma Wilson',
     position: 'Project Manager',
-    company: 'TechSpace Innovations',
-    content: 'Our data center project had complex technical requirements and strict timelines. The team not only delivered an efficient and secure facility but also created a design that reflects our company\'s forward-thinking approach. The collaborative process made a potentially challenging project smooth and successful.',
-    imageUrl: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    company: 'KOCHI METRO RAIL LIMITED',
+    content: 'Professionalism and quality were evident throughout. Everything was delivered with precision and care. We’re extremely happy with the outcome.',
+    imageUrl: 'images/clients/LOGOS/KOCHI METRO RAIL LIMITED.jpg'
   },
   {
     id: '4',
     name: 'David Chen',
     position: 'Owner',
-    company: 'Chen Properties',
-    content: 'Having worked with many architectural firms over the years, I can confidently say this team stands out for their commitment to quality and client satisfaction. Our commercial plaza development benefited greatly from their innovative design solutions and meticulous project management.',
-    imageUrl: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    company: 'CSB',
+    content: 'Truly a hassle-free and satisfying experience. The level of commitment and attention to detail was commendable. Would definitely recommend.',
+    imageUrl: 'images/clients/LOGOS/CSB.jpg'
+  },
+
+  {
+    id: '5',
+    name: 'Emma Wilson',
+    position: 'Project Manager',
+    company: 'LUXON TATA',
+    content: 'Professionalism and quality were evident throughout. Everything was delivered with precision and care. We’re extremely happy with the outcome.',
+    imageUrl: 'images/clients/LOGOS/LUXON TATA.jpg'
+  },
+  {
+    id: '6',
+    name: 'David Chen',
+    position: 'Owner',
+    company: 'LEXUS KOCHI',
+    content: 'Truly a hassle-free and satisfying experience. The level of commitment and attention to detail was commendable. Would definitely recommend.',
+    imageUrl: 'images/clients/LOGOS/LEXUS KOCHI.png'
   }
 ];

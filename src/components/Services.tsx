@@ -17,7 +17,7 @@ const Services: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
           {services.map((service) => (
             <ServiceCard
               key={service.id}
@@ -50,17 +50,17 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   const IconComponent = LucideIcons[icon as keyof typeof LucideIcons];
 
   return (
-    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 group">
+    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 group ">
       <div className="h-48 relative overflow-hidden">
         <img
           src={imageUrl}
           alt={title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-        <div className="absolute bottom-4 left-4 right-4">
+        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-40"></div>
+        {/* <div className="absolute bottom-4 left-4 right-4">
           <h3 className="text-xl font-bold text-white">{title}</h3>
-        </div>
+        </div> */}
       </div>
       <div className="p-6">
         <div className="flex items-center mb-4">
@@ -71,7 +71,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         </div>
         <p className="text-gray-700">
           {description.length > 150
-            ? `${description.substring(0, 150)}...`
+            ? `${description.substring(0, 100)}...`
             : description}
         </p>
       </div>

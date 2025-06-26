@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 flex items-center justify-center h-full px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
-            Building <span className="text-blue-400">Excellence</span>, Crafting <span className="text-blue-400">Experiences</span>
+          <span >Intelligent Building</span><span className="text-blue-400"> Experiences</span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-100 mb-10">
             Delivering innovative and sustainable MEP solutions that power smart buildings and efficient infrastructure.

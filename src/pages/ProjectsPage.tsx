@@ -182,11 +182,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
             {title}
           </h3>
-          <p className="text-gray-700 mb-4">{description}</p>
+          {/* <p className="text-gray-700 mb-4">{description}</p>
           <div className="flex items-center text-blue-600 font-medium">
             View Project Details
             <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
-          </div>
+          </div> */}
         </div>
       </div>
     </Link>

@@ -68,8 +68,8 @@ const Testimonials: React.FC = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 text-center">{testimonials[currentIndex].name}</h3>
-                <p className="text-gray-600 text-center">{testimonials[currentIndex].position}</p>
+                {/* <h3 className="text-xl font-bold text-gray-900 text-center">{testimonials[currentIndex].name}</h3>
+                <p className="text-gray-600 text-center">{testimonials[currentIndex].position}</p> */}
                 <p className="text-blue-600 font-medium text-center">{testimonials[currentIndex].company}</p>
               </div>
               
