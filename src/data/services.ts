@@ -6,7 +6,7 @@ export const services: Service[] = [
     title: 'Electrical Systems',
     description: 'Electrical design and implementation for power, lighting, earthing, and backup systems.',
     icon: 'Building2',
-    imageUrl: 'images/services/electrical%elv.webp'
+    imageUrl: 'images/services/electricalsystems.webp'
   },
   {
     id: '2',
@@ -27,7 +27,7 @@ export const services: Service[] = [
     title: 'ELV Systems',
     description: 'Smart low-voltage systems for security, automation, surveillance, and communication needs.',
     icon: 'Building2',
-    imageUrl: 'images/services/electrical%elv.webp'
+    imageUrl: 'images/services/elv.png'
   },
   {
     id: '5',
