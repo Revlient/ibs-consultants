@@ -7,6 +7,7 @@ import Services from '../components/Services';
 import ProjectsSection from '../components/ProjectsSection';
 import Testimonials from '../components/Testimonials';
 import ContactUs from '../components/ContactUs';
+import OurClients from '../components/Clients';
 
 const Home: React.FC = () => {
   const location = useLocation();
@@ -27,7 +28,8 @@ const Home: React.FC = () => {
       <AboutUs />
       <Services />
       <ProjectsSection />
-      <Testimonials />
+      <OurClients />
+      {/* <Testimonials /> */}
       <ContactUs />
     </div>
   );
