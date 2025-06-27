@@ -58,7 +58,10 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img src="images/logo.jpg" className='h-12 w-12' alt="" />
-            <span className={`ml-2 text-lg font-bold ${isScrolled ? 'hidden' : ''} text-white `}>Intelligent Building System Consultants</span>
+            <div>
+              <span className={`ml-2 text-lg font-bold ${isScrolled ? 'text-black' : ''} text-white `}>IBS Consultants</span> <br />
+            <span className={`ml-2 text-xs font-semibold ${isScrolled ? 'text-black' : ''} text-white `}>Intelligent Building System</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
