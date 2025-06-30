@@ -48,6 +48,9 @@ const Navbar: React.FC = () => {
     }
   };
 
+  // Check if we're on a page that should have dark text initially
+  const shouldUseDarkText = isScrolled || location.pathname !== '/';
+
   return (
     <nav 
       className={`fixed w-full z-50 transition-all duration-300 ${
@@ -59,19 +62,19 @@ const Navbar: React.FC = () => {
           <Link to="/" className="flex items-center">
             <img src="images/logo.jpg" className='h-12 w-12' alt="" />
             <div className='flex flex-col '>
-              <span className={`ml-2 text-lg font-bold  leading-none ${isScrolled ? 'text-black' : ''} text-white `}>IBS Consultants</span> 
-            <span className={`ml-2 text-xs font-semibold leading-none ${isScrolled ? 'text-black' : ''} text-white `}>Intelligent Building System</span>
+              <span className={`ml-2 text-lg font-bold leading-none ${shouldUseDarkText ? 'text-black' : 'text-white'}`}>IBS Consultants</span> 
+              <span className={`ml-2 text-xs font-semibold leading-none ${shouldUseDarkText ? 'text-black' : 'text-white'}`}>Intelligent Building System</span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex ${isScrolled ? 'text-black' : 'text-white'}   space-x-8">
-            <NavLink to="/" label="Home" isScrolled={isScrolled} onClick={handleNavClick} />
-            <NavLink to="/#about" label="About" isScrolled={isScrolled} onClick={handleNavClick} />
-            <NavLink to="/#services" label="Services" isScrolled={isScrolled} onClick={handleNavClick} />
-            <NavLink to="/projects" label="Projects" isScrolled={isScrolled} onClick={handleNavClick} />
-            <NavLink to="/#clients" label="Our clients" isScrolled={isScrolled} onClick={handleNavClick} />
-            <NavLink to="/#contact" label="Contact" isScrolled={isScrolled} onClick={handleNavClick} />
+          <div className="hidden md:flex space-x-8">
+            <NavLink to="/" label="Home" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#about" label="About" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#services" label="Services" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/projects" label="Projects" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#clients" label="Our clients" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#contact" label="Contact" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
           </div>
 
           {/* Mobile Menu Button */}
@@ -93,11 +96,11 @@ const Navbar: React.FC = () => {
           <div className="md:hidden bg-slate-400 rounded-lg p-2 mt-4 pb-4">
             <div className="flex flex-col space-y-4"> 
               <MobileNavLink to="/" label="Home" onClick={handleNavClick} />
-              <MobileNavLink to="/#about" label="About" onClick={handleNavClick} />
-              <MobileNavLink to="/#services" label="Services" onClick={handleNavClick} />
+              <MobileNavLink to="/About" label="About" onClick={handleNavClick} />
+              <MobileNavLink to="/services" label="Services" onClick={handleNavClick} />
               <MobileNavLink to="/projects" label="Projects" onClick={handleNavClick} />
-              <MobileNavLink to="/#clients" label="Clients" onClick={handleNavClick} />
-              <MobileNavLink to="/#contact" label="Contact" onClick={handleNavClick} />
+              <MobileNavLink to="/clients" label="Clients" onClick={handleNavClick} />
+              <MobileNavLink to="/contact" label="Contact" onClick={handleNavClick} />
             </div>
           </div>
         )}
@@ -109,11 +112,11 @@ const Navbar: React.FC = () => {
 interface NavLinkProps {
   to: string;
   label: string;
-  isScrolled: boolean;
+  shouldUseDarkText: boolean;
   onClick: (e: React.MouseEvent<HTMLAnchorElement>, to: string) => void;
 }
 
-const NavLink: React.FC<NavLinkProps> = ({ to, label, isScrolled, onClick }) => {
+const NavLink: React.FC<NavLinkProps> = ({ to, label, shouldUseDarkText, onClick }) => {
   const location = useLocation();
   const isActive = location.pathname === to || (to.includes('#') && location.hash === to.substring(to.indexOf('#')));
 
@@ -124,9 +127,9 @@ const NavLink: React.FC<NavLinkProps> = ({ to, label, isScrolled, onClick }) => 
       className={`font-bold transition-colors duration-300 ${
         isActive
           ? 'text-blue-600'
-          : isScrolled
+          : shouldUseDarkText
           ? 'text-gray-800 hover:text-blue-600'
-          : 'text-slate-50 hover:text-blue-600'
+          : 'text-white hover:text-blue-600'
       }`}
     >
       {label}
