@@ -6,14 +6,14 @@ export const services: Service[] = [
     title: 'Electrical Systems',
     description: 'Electrical design and implementation for power, lighting, earthing, and backup systems.',
     icon: 'Building2',
-    imageUrl: 'images/services/electricalsystems.webp'
+    imageUrl: 'images/services/electrical.png'
   },
   {
     id: '2',
     title: 'Fire Protection Systems',
     description: '   Fire safety solutions including sprinklers, hydrants, alarms, and suppression systems.',
     icon: 'Sofa',
-    imageUrl: 'images/services/Fire_protection.png'
+    imageUrl: 'images/services/fire.png'
   },
   {
     id: '3',
@@ -34,12 +34,12 @@ export const services: Service[] = [
     title: 'Plumbing Systems',
     description: 'Complete water and waste management solutions for buildings and infrastructure. Services cover potable water supply, hot water systems (including solar), drainage, sewage treatment, rainwater harvesting, and solid waste management — all designed for sustainability, hygiene, and efficiency.',
     icon: 'MapPin',
-    imageUrl: 'images/services/plumbing_systems_.jpg'
+    imageUrl: 'images/services/plumbing.png'
   },
   {
   id: '6',
   title: 'Sustainable Energy Solutions',
-  description: 'Water supply, drainage, sewage, and rainwater systems designed for hygiene, safety, and efficiency.',
+  description: 'Empowering a cleaner future through solar energy, EV charging, smart grids, and sustainable green building practices.',
   icon: 'Sun',
   imageUrl: 'images/services/sustainable.png'
 },
@@ -48,7 +48,7 @@ export const services: Service[] = [
   title: 'Medical Gas & Pneumatic Systems',
   description: 'Safe, reliable systems for oxygen, vacuum, compressed air, and other medical gas supply needs.',
   icon: 'HeartPulse',
-  imageUrl: 'images/services/medicalGas&pneumaticSystems.avif'
+  imageUrl: 'images/services/medicalgas.png'
 },
 {
   id: '8',
@@ -62,6 +62,6 @@ export const services: Service[] = [
   title: 'EMS (Energy Management System)',
   description: 'Real-time monitoring and control of energy use to improve efficiency and reduce operational costs.',
   icon: 'Activity',
-  imageUrl: 'images/services/ems.svg'
+  imageUrl: 'images/services/ems.png'
 },
 ];

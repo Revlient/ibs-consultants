@@ -1,69 +1,777 @@
 import { Project } from "../types";
 
 export const projects: Project[] = [
- 
+
+  //Apartments
+
   {
     id: "1",
-    title: "BHIMA JEWELLERS, ALAPPUZHA ",
-    category: "Commercial",
+    title: "Abaam Kochi",
+    category: "Apartments",
     description:
-      "Cillum in anim ex ex tempor sit et adipisicing cupidatat in ipsum pariatur occaecat sit. Nulla sunt nulla ea eiusmod officia minim eiusmod mollit tempor eu elit. Minim Lorem nisi pariatur duis reprehenderit amet qui magna ut cupidatat. Sint duis irure minim laboris consequat pariatur labore. Minim laborum voluptate ullamco commodo aliqua eu Lorem laboris quis elit.",
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
     shortDescription:
-      "Qui irure cillum cupidatat velit sunt.",
-    location: '',
-    year: 2024,
-    client: '',
-    area: '',
-    imageUrl: 'images/projects/COMMERCIAL BUILDINGS/BHIMA ALAPPUZHA.jpg',
-    galleryImages: [
-      '',
-      '',
-      '',],
-    specifications: [
-      { label: "Structure Type", value: "Wood frame with concrete podium" },
-      { label: "Units", value: "124 mixed units" },
-      { label: "Sustainability", value: "Energy Star certified" },
-      { label: "Special Features", value: "Waterfront promenade, green roof" },
-    ],
-  },
-  {
-    id: "2",
-    title: "MAGJ HOSPITAL, MOOKANOOR",
-    category: "Hospitals",
-    description:
-      "Ea quis magna incididunt sunt proident nostrud reprehenderit nostrud ea occaecat. Elit elit ut occaecat incididunt. Deserunt officia culpa est dolore irure est nostrud est excepteur mollit.",
-    shortDescription:
-      "Consequat nisi enim eu officia et.",
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
     location: "",
     year: 2024,
     client: "",
     area: "",
     imageUrl:
-      "images/projects/HOSPITAL PROJECTS/Magj hospital.jpg",
+      "images/projects/APARTMENTS/ABAAM KOCHI.webp",
     galleryImages: [
-      '',
-      '',
       '',
     ],
     specifications: [
-      { label: "Development Type", value: "Master-planned community" },
-      { label: "Home Sizes", value: "3,520242024 - 6,202420242024 sq ft" },
-      { label: "Amenities", value: "Clubhouse, pool, tennis courts, trails" },
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
       {
-        label: "Infrastructure",
-        value: "Underground utilities, fiber internet",
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "2",
+    title: "BLESS HOMES",
+    category: "Apartments",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/APARTMENTS/BLESS HOMES.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "3",
+    title: "HOTEL PRASANTHI",
+    category: "Apartments",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/APARTMENTS/HOTEL PRASANTHI.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "4",
+    title: "SKYLINE SOLITAIRE EDAPPALLY",
+    category: "Apartments",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/APARTMENTS/SKYLINE SOLITAIRE EDAPPALLY.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "5",
+    title: "SREEPAVANAPURI APARTMENTS, GURUVAYOOR ",
+    category: "Apartments",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/APARTMENTS/SREEPAVANAPURI APARTMENTS.png",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "6",
+    title: "ST MAXIMILAN KOLBE SEMINARY",
+    category: "Apartments",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/APARTMENTS/ST MAXIMILAN KOLBE SEMINARY.webp",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+
+  //Auditoriums
+
+  {
+    id: "7",
+    title: "ADLUX CONVENTION CENTER",
+    category: "Auditorium",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/AUDITORIUM/ADLUX CONVENTION CENTER.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "8",
+    title: "CAMELOT CONVENTION CENTER ALAPPUZHA",
+    category: "Auditorium",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/AUDITORIUM/CAMELOT CONVENTION CENTER ALAPPUZHA.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "9",
+    title: "EDENGARDEN PANDALAM",
+    category: "Auditorium",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/AUDITORIUM/EDENGARDEN PANDALAM11.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "10",
+    title: "GIRIDEEPAM CONVENTION CENTER THIRUVANANTHAPURAM",
+    category: "Auditorium",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/AUDITORIUM/GIRIDEEPAM CONVENTION CENTER THIRUVANANTHAPURAM.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "11",
+    title: " MANNAM MEMORIAL NSS CONVENTION CENTRE, CHANGANASSERY",
+    category: "Auditorium",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/AUDITORIUM/mannam-nss-2.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "12",
+    title: "ST.AGUSTINE CHURCH AROOR",
+    category: "Auditorium",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/AUDITORIUM/ST.AGUSTINE CHURCH AROOR.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+
+  //Commercial buildings
+  {
+    id: "13",
+    title: "BHIMA JEWELLERS, ALAPPUZHA ",
+    category: "Commercial",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/COMMERCIAL BUILDINGS/BHIMA ALAPPUZHA.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+   {
+    id: "14",
+    title: "FEDERAL BANK HEAD OFFICE, ALUVA ",
+    category: "Commercial",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/COMMERCIAL BUILDINGS/FEDERAL BANK HO ALUVA.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "15",
+    title: "JAYALAKSHMI TEXTILES, KOZHIKODE ",
+    category: "Commercial",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/COMMERCIAL BUILDINGS/JAYALAKSHMI KOZHIKODE.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+   {
+    id: "16",
+    title: "JAYALAKSHMI TEXTILES, THIRUVANANTHAPURAM ",
+    category: "Commercial",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/COMMERCIAL BUILDINGS/JAYALAKSHMI THIRUVANANTHAPURAM.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "17",
+    title: "MAHESHWARI TEXTILES, ALAPPUZHA",
+    category: "Commercial",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/COMMERCIAL BUILDINGS/MAHESHWARI TEXTILES.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "18",
+    title: "MN FASHIONS & FABRICS ERNAKULAM",
+    category: "Commercial",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/COMMERCIAL BUILDINGS/MN FASHIONS & FABRICS ERNAKULAM.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+   {
+    id: "19",
+    title: "NOVELTY TEXTILES, KOLLAM",
+    category: "Commercial",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/COMMERCIAL BUILDINGS/NOVELTY TEXTILES.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
       },
     ],
   },
   
-   {
-    id: "3",
-    title: "APPOLLO ADLUX HOSPITAL ANGAMALY",
+  //Educational
+  {
+    id: "20",
+    title: "GMA EXPANSION, SMART CITY KAKKANAD",
+    category: "Educational",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/EDUCATIONAL INSTITUTE/GEMS EXPANSION.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "21",
+    title: "ICD KOLLAM",
+    category: "Educational",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/EDUCATIONAL INSTITUTE/ICD KOLLAM.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "22",
+    title: "MACFAST THIRUVALLA",
+    category: "Educational",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/EDUCATIONAL INSTITUTE/MACFAST THIRUVALLA.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "23",
+    title: "MANNAM AYURVEDA COLLEGE",
+    category: "Educational",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/EDUCATIONAL INSTITUTE/MANNAM AYURVEDA COLLEGE.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "24",
+    title: "NUALS KALAMASSERY",
+    category: "Educational",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/EDUCATIONAL INSTITUTE/NUALS KALAMASSERY.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+
+  //Hospitals
+
+  {
+    id: "25",
+    title: "AHALYA FOUNDATION EYE HOSPITAL, THRISSUR",
     category: "Hospitals",
     description:
-      "Ea quis magna incididunt sunt proident nostrud reprehenderit nostrud ea occaecat. Elit elit ut occaecat incididunt. Deserunt officia culpa est dolore irure est nostrud est excepteur mollit.",
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
     shortDescription:
-      "Consequat nisi enim eu officia et.",
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOSPITAL PROJECTS/AHALYA EYE FOUNDATION HOSPITAL.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "26",
+    title: "APPOLLO ADLUX HOSPITAL, ANGAMALY",
+    category: "Hospitals",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
     location: "",
     year: 2024,
     client: "",
@@ -72,251 +780,297 @@ export const projects: Project[] = [
       "images/projects/HOSPITAL PROJECTS/APPOLLO ADLUX HOSPITAL ANGAMALY.jpg",
     galleryImages: [
       '',
-      '',
-      '',
     ],
     specifications: [
-      { label: "Development Type", value: "Master-planned community" },
-      { label: "Home Sizes", value: "3,520242024 - 6,202420242024 sq ft" },
-      { label: "Amenities", value: "Clubhouse, pool, tennis courts, trails" },
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
       {
-        label: "Infrastructure",
-        value: "Underground utilities, fiber internet",
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
       },
     ],
   },
   {
-    id: "4",
+    id: "27",
+    title: " Dr. SHENOY’S CARE HOSPITAL, KUMBALAM",
+    category: "Hospitals",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOSPITAL PROJECTS/CAREHOSPITAL KUMBALAM.jpeg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "28",
+    title: "M.O.S.C. HOSPITAL, KOLENCHERY ",
+    category: "Hospitals",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOSPITAL PROJECTS/M.O.S.C. HOSPITAL KOLENCHERY.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "29",
+    title: "MAGJ HOSPITAL, MOOKANOOR",
+    category: "Hospitals",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOSPITAL PROJECTS/Magj hospital.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "30",
+    title: "PUSHPAGIRI HOSPITAL, THIRUVALLA ",
+    category: "Hospitals",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOSPITAL PROJECTS/Pushpagiri Hospital.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "31",
+    title: "TMM HOSPITAL, THIRUVALLA ",
+    category: "Hospitals",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOSPITAL PROJECTS/TMM.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "32",
+    title: "Unity Hospital",
+    category: "Hospitals",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOSPITAL PROJECTS/Unity Hospital.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+
+  //Office
+  {
+    id: "33",
     title: "MARIAPPS MARINE SOLUTIONS, SMART CITY KAKKANAD ",
     category: "Office",
     description:
-      "Lorem velit officia id in ipsum nostrud cupidatat sunt ex laborum. Aliquip voluptate mollit laborum enim irure esse. Occaecat et sit labore ex excepteur commodo ea cillum. Velit nisi incididunt officia consectetur non duis do sit. Esse mollit qui officia sint ut nisi culpa in. Amet laboris cupidatat culpa aliquip velit elit officia pariatur consectetur.",
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
     shortDescription:
-      "Labore commodo tempor nulla fugiat sunt culpa quis duis.",
-    location: '',
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
     year: 2024,
-    client: '',
+    client: "",
     area: "",
     imageUrl:
       "images/projects/OFFICE BUILDINGS/MARIAPPS.jpg",
     galleryImages: [
-      ""
+      '',
     ],
     specifications: [
-      { label: "Structure Type", value: "Steel frame with glass curtain wall" },
-      { label: "Floorplates", value: "42024,202420242024 sq ft open floor plates" },
-      { label: "Sustainability", value: "LEED Gold certified" },
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
       {
-        label: "Special Features",
-        value: "Green roof, solar panels, rainwater collection",
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
       },
-    ],
-  },
-  
- 
-
-  {
-    id: "5",
-    title: "SREEPAVANAPURI APARTMENTS, GURUVAYOOR ",
-    category: "Apartments",
-    description:
-      "Aute culpa pariatur consectetur elit. Nulla sunt magna voluptate cupidatat consectetur veniam nulla deserunt laborum dolore ut sunt. In exercitation pariatur elit id. Ea sint adipisicing sit duis sunt ex minim ut quis voluptate eu minim. Veniam nulla in tempor ut consectetur adipisicing magna fugiat excepteur ex. Amet pariatur tempor velit est consectetur officia adipisicing deserunt consectetur. Nisi est dolore incididunt dolor nisi aute.",
-    shortDescription: "Qui excepteur pariatur mollit eu duis amet.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/APARTMENTS/SREEPAVANAPURI APARTMENTS.png",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Steel frame with concrete core" },
-      { label: "Exterior", value: "Glass curtain wall with aluminum panels" },
-      { label: "Sustainability", value: "LEED Platinum certified" },
       {
-        label: "Special Features",
-        value: "Healing gardens, natural light wells",
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
       },
-    ],
-  },
-
-  
-  {
-    id: "6",
-    title: " MANNAM MEMORIAL NSS CONVENTION CENTRE, CHANGANASSERY ",
-    category: "Auditorium",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/AUDITORIUM/mannam-nss-2.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
- 
-  {
-    id: "7",
-    title: "MAHESHWARI TEXTILES, ALAPPUZHA",
-    category: "Commercial",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/COMMERCIAL BUILDINGS/MAHESHWARI TEXTILES.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
-
-  {
-    id: "8",
-    title: "NOVELTY TEXTILES, KOLLAM ",
-    category: "Commercial",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/COMMERCIAL BUILDINGS/NOVELTY TEXTILES.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
-
-  {
-    id: "9",
-    title: "GMA EXPANSION, SMART CITY KAKKANAD",
-    category: "Educational",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/EDUCATIONAL INSTITUTE/GEMS EXPANSION.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
- 
- 
-  {
-    id: "10",
-    title: "TMM HOSPITAL, THIRUVALLA",
-    category: "Hospitals",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non hqui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/HOSPITAL PROJECTS/TMM.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
     ],
   },
    {
-    id: "11",
-    title: " PUSHPAGIRI HOSPITAL, THIRUVALLA ",
-    category: "Hospitals",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non hqui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/HOSPITAL PROJECTS/Pushpagiri Hospital.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
-  {
-    id: "12",
-    title: " AHALYA FOUNDATION EYE HOSPITAL, THRISSUR  ",
-    category: "Hospitals",
-    description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
-    shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non hqui anim reprehenderit culpa fugiat.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl: "images/projects/HOSPITAL PROJECTS/AHALYA EYE FOUNDATION HOSPITAL.jpg",
-    galleryImages: ["", "", ""],
-    specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
-    ],
-  },
-  
-  {
-    id: "13",
+    id: "34",
     title: "TRANSASIA CYBERPARK, INFOPARK KAKKANAD ",
     category: "Office",
     description:
-      "Enim dolore aliqua id aliqua non sunt sint. Anim Lorem consequat laboris Lorem. Elit non commodo consequat proident irure pariatur excepteur elit incididunt ea est velit. Ullamco eiusmod veniam sint aute laboris occaecat do culpa qui elit et officia adipisicing.",
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
     shortDescription:
-      "Labore laborum proident cupidatat velit elit nisi velit non qui anim reprehenderit culpa fugiat.",
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
     location: "",
     year: 2024,
     client: "",
     area: "",
-    imageUrl: "images/projects/OFFICE BUILDINGS/TRANSASIA.webp",
-    galleryImages: ["", "", ""],
+    imageUrl:
+      "images/projects/OFFICE BUILDINGS/TRANSASIA.webp",
+    galleryImages: [
+      '',
+    ],
     specifications: [
-      { label: "Structure Type", value: "Reinforced concrete" },
-      { label: "Units", value: "312 luxury apartments" },
-      { label: "Amenities", value: "Rooftop pool, fitness center, concierge" },
-      { label: "Parking", value: "420242024 spaces underground" },
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
     ],
   },
-  
+
+  //Showroom
+
   {
-    id: "14",
+    id: "35",
+    title: "AUTOBAHN RTC PUNE",
+    category: "Showroom",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/SHOWROOM PROJECTS/AUTOBAHN RTC PUNE.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+   {
+    id: "36",
     title: "BRIDGEWAY MOTORS",
     category: "Showroom",
     description:
@@ -346,8 +1100,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "15",
-    title: " INCHEON KIA MOTORS",
+    id: "37",
+    title: "INCHEON KIA MOTORS",
     category: "Showroom",
     description:
       "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
@@ -375,68 +1129,8 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    id: "16",
-    title: " LUXON TATA MOTORS",
-    category: "Showroom",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/SHOWROOM PROJECTS/LUXON TATA.jpg",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
    {
-    id: "17",
-    title: " AUTOBAHN TRUCKING",
-    category: "Showroom",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/SHOWROOM PROJECTS/AUTOBAHN RTC PUNE.jpg",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
-  {
-    id: "18",
+    id: "38",
     title: "LEXUS KOCHI",
     category: "Showroom",
     description:
@@ -466,7 +1160,37 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "19",
+    id: "39",
+    title: "LUXON TATA",
+    category: "Showroom",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/SHOWROOM PROJECTS/LUXON TATA.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "40",
     title: "NIPPON TOYOTA",
     category: "Showroom",
     description:
@@ -479,6 +1203,192 @@ export const projects: Project[] = [
     area: "",
     imageUrl:
       "images/projects/SHOWROOM PROJECTS/NIPPON TOYOTA.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+   {
+    id: "41",
+    title: "NIPPON TOYOTA",
+    category: "Showroom",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/SHOWROOM PROJECTS/NIPPON TOYOTA1.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+
+  //Hotels and Resorts
+
+  {
+    id: "42",
+    title: "EVM HOTELS MOUNTAIB CLUB LUXURY RESORT CHINNAKAL MUNNAR",
+    category: "Hotels and Resorts",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOTELS AND RESORTS/EVM HOTELS MOUNTAIB CLUB LUXURY RESORT CHINNAKAL MUNNAR.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "43",
+    title: "RAMADA RESORT KUMBALAM",
+    category: "Hotels and Resorts",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOTELS AND RESORTS/RAMADA RESORT KUMBALAM 1.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "44",
+    title: "REGENT LAKE PALACE KOLLAM",
+    category: "Hotels and Resorts",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/HOTELS AND RESORTS/REGENT LAKE PALACE KOLLAM.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+
+  //Factories
+
+  {
+    id: "45",
+    title: "AKSA ADOOR",
+    category: "Factories",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/FACTORIES/AKSA ADOOR.jpg",
+    galleryImages: [
+      '',
+    ],
+    specifications: [
+      { label: "Tier Level", value: "Tier IV" },
+      { label: "Power Capacity", value: "25 MW" },
+      {
+        label: "Cooling System",
+        value: "Liquid cooling with free cooling capabilities",
+      },
+      {
+        label: "Security Features",
+        value: "Biometric access, 24/7 monitoring, mantrap entries",
+      },
+    ],
+  },
+  {
+    id: "46",
+    title: "KAMCO ATHANI",
+    category: "Factories",
+    description:
+      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
+    shortDescription:
+      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
+    location: "",
+    year: 2024,
+    client: "",
+    area: "",
+    imageUrl:
+      "images/projects/FACTORIES/KAMCO ATHANI.jpg",
     galleryImages: [
       '',
     ],

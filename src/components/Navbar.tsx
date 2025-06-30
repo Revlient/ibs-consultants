@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex ${isScrolled ? 'text-black' : 'text-white'}   space-x-8">
             <NavLink to="/" label="Home" isScrolled={isScrolled} onClick={handleNavClick} />
             <NavLink to="/#about" label="About" isScrolled={isScrolled} onClick={handleNavClick} />
             <NavLink to="/#services" label="Services" isScrolled={isScrolled} onClick={handleNavClick} />
@@ -121,12 +121,12 @@ const NavLink: React.FC<NavLinkProps> = ({ to, label, isScrolled, onClick }) => 
     <a
       href={to}
       onClick={(e) => onClick(e, to)}
-      className={`font-medium transition-colors duration-300 ${
+      className={`font-bold transition-colors duration-300 ${
         isActive
           ? 'text-blue-600'
           : isScrolled
           ? 'text-gray-800 hover:text-blue-600'
-          : 'text-gray-800 hover:text-blue-600'
+          : 'text-slate-50 hover:text-blue-600'
       }`}
     >
       {label}

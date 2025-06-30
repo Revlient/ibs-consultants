@@ -50,7 +50,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   const IconComponent = LucideIcons[icon as keyof typeof LucideIcons];
 
   return (
-    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 group ">
+    <div id="Services" className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 group ">
       <div className="h-48 relative overflow-hidden">
         <img
           src={imageUrl}

@@ -5,7 +5,7 @@ import MapEmbed from "./MapEmbed";
 
 const ContactUs: React.FC = () => {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="Contact" className="py-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -15,7 +15,7 @@ const ContactUs: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          <div>
+          {/* <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               Get In Touch
             </h3>
@@ -29,7 +29,7 @@ const ContactUs: React.FC = () => {
               message="Hi! I'm interested in your services. Can you tell me more?"
               label="Start Chat on WhatsApp"
             />
-          </div>
+          </div> */}
 
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">

@@ -14,7 +14,7 @@ const ProjectsSection: React.FC = () => {
   };
 
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="Projects" className="py-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

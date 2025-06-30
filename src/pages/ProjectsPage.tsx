@@ -12,7 +12,9 @@ type ProjectCategory =
   | "Auditorium"
   | "Educational"
   | "Office"
-  | "Showroom";
+  | "Showroom"
+  | "Hotels and Resorts"
+  | "Factories";
 
 const ProjectsPage: React.FC = () => {
   useEffect(() => {
@@ -83,6 +85,16 @@ const ProjectsPage: React.FC = () => {
             category="Showroom"
             selectedCategory={selectedCategory}
             onClick={() => setSelectedCategory("Showroom")}
+          />
+          <CategoryButton
+            category="Hotels and Resorts"
+            selectedCategory={selectedCategory}
+            onClick={() => setSelectedCategory("Hotels and Resorts")}
+          />
+          <CategoryButton
+            category="Factories"
+            selectedCategory={selectedCategory}
+            onClick={() => setSelectedCategory("Factories")}
           />
         </div>
 

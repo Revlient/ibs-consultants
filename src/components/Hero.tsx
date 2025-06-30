@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative h-screen">
+    <div id="Hero" className="relative h-screen">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{ 
-          backgroundImage: "url('https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')", 
+          backgroundImage: "url('public/images/Hero.png')", 
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           <span >Intelligent Building</span><span className="text-blue-400"> Experiences</span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-100 mb-10">
-            Delivering innovative and sustainable MEP solutions that power smart buildings and efficient infrastructure.
+            ADVANCING BUILDING ENERGY EFFICIENCY THROUGH INNOVATIVE TECHNOLOGIES AND LATEST GREEN BUILDING PRACTICES.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

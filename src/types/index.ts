@@ -1,7 +1,7 @@
 export interface Project {
   id: string;
   title: string;
-  category: 'Hospitals' | 'Apartments' | 'Commercial' |  'Auditorium' | 'Educational' | 'Office' |'Showroom';
+  category: 'Hospitals' | 'Apartments' | 'Commercial' |  'Auditorium' | 'Educational' | 'Office' |'Showroom' | "Hotels and Resorts" | "Factories";
   description: string;
   shortDescription: string;
   location: string;

@@ -16,33 +16,32 @@ const OurClients: React.FC = () => {
     },
     { name: "BANK OF BARODA", logo: "images/clients/LOGOS/BANK OF BARODA.jpg" },
     {
-      name: "bhima-jewellers-seeklogo",
+      name: "BHIMA JEWELLERS",
       logo: "images/clients/LOGOS/BHIMA JEWELLERS.png",
     },
     { name: "BLESSHOMES", logo: "images/clients/LOGOS/BLESSHOMES.png" },
     { name: "BRIDGEWAY", logo: "images/clients/LOGOS/BRIDGEWAY.png" },
     { name: "CHAKOLAS", logo: "images/clients/LOGOS/CHAKOLAS.jpg" },
-    { name: "CSB logo", logo: "images/clients/LOGOS/CSB.jpg" },
-    { name: "CARE", logo: "images/clients/LOGOS/DR SHENOYS CARE.jpg" },
+    { name: "CSB", logo: "images/clients/LOGOS/CSB.jpg" },
+    { name: "DR SHENOYS CARE", logo: "images/clients/LOGOS/DR SHENOYS CARE.jpg" },
     { name: "FEDERAL BANK", logo: "images/clients/LOGOS/FEDERAL BANK.jpg" },
     { name: "GMA KOCHI", logo: "images/clients/LOGOS/GMA KOCHI.jpg" },
     { name: "HOLIDAY GROUP", logo: "images/clients/LOGOS/HOLIDAY GROUP.jpg" },
     {
-      name: "PRASANTHI HOTEL",
+      name: "HOTEL PRASANTHI",
       logo: "images/clients/LOGOS/HOTEL PRASANTHI.jpg",
     },
     { name: "IBS SOFTWARE", logo: "images/clients/LOGOS/IBSSOFTWARE.png" },
     { name: "INCHEON KIA", logo: "images/clients/LOGOS/INCHEON KIA.png" },
     { name: "INNOPOLIS", logo: "images/clients/LOGOS/INNOPOLIS.jpeg" },
     {
-      name: "KENT CONSTRUCTION Pvt Ltd",
+      name: "KENT CONSTRUCTIONS",
       logo: "images/clients/LOGOS/KENT CONSTRUCTIONS.jpg",
     },
     { name: "KOCHI METRO", logo: "images/clients/LOGOS/KOCHI METRO RAIL LIMITED.jpg" },
-    { name: "KOCHI", logo: "images/clients/LOGOS/KOCHI.jpg" },
     { name: "LUXON TATA", logo: "images/clients/LOGOS/LUXON TATA.jpg" },
     {
-      name: "MANNAM MEMORIAL CONVENTION CENTER",
+      name: "MANNAM MEMORIAL",
       logo: "images/clients/LOGOS/MANNAM MEMORIAL CONVENTION CENTER.png",
     },
     { name: "MARIAPPS", logo: "images/clients/LOGOS/MARIAPPS.png" },
@@ -52,9 +51,9 @@ const OurClients: React.FC = () => {
     { name: "OCEANUS", logo: "images/clients/LOGOS/OCEANUS.jpg" },
     { name: "PARAYIL FOODS", logo: "images/clients/LOGOS/PARAYIL FOODS.jpg" },
     { name: "RAMADA RESORT", logo: "images/clients/LOGOS/RAMADA RESORT.jpg" },
-    { name: "RDS OLD", logo: "images/clients/LOGOS/RDS OLD.jpg" },
+    { name: "RDS", logo: "images/clients/LOGOS/RDS OLD.jpg" },
     {
-      name: "SREEPAVANAPURI APARTMENTS",
+      name: "SREEPAVANAPURI",
       logo: "images/clients/LOGOS/SREEPAVANAPURI APARTMENTS.jpg",
     },
     {
@@ -114,7 +113,7 @@ const OurClients: React.FC = () => {
   };
 
   return (
-    <section id="clients" className="py-20 bg-gray-50">
+    <section id="Clients" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -133,23 +132,25 @@ const OurClients: React.FC = () => {
           onMouseLeave={handleMouseLeave}
         >
           {/* Client Logos Slider */}
-          <div className="overflow-hidden bg-white shadow-md rounded-2xl   py-12 px-8">
-            <div className="flex items-center justify-center space-x-6 md:space-x-8 lg:space-x-12">
+          <div className="overflow-hidden bg-white shadow-lg rounded-2xl py-16 px-12">
+            <div className="flex items-center justify-between">
               {getCurrentSlideClients().map((client, index) => (
                 <div
                   key={`${currentIndex}-${index}`}
-                  className="flex-shrink-0 group cursor-pointer"
+                  className="flex-1 flex justify-center group cursor-pointer"
                 >
-                  {/* Logo Container with consistent sizing */}
-                  <div className="w-24 h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 bg-white border-2 border-gray-100 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 group-hover:border-blue-200 group-hover:scale-105 flex items-center justify-center p-4">
-                    <div className="w-full h-full relative overflow-hidden rounded-lg">
+                  {/* Logo Container with perfect consistent sizing */}
+                  <div className="w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 group-hover:border-blue-300 group-hover:scale-105 flex items-center justify-center p-6 relative overflow-hidden">
+                    <div className="w-full h-full flex items-center justify-center">
                       <img
                         src={client.logo}
                         alt={`${client.name} logo`}
-                        className="w-full h-full object-contain  transition-all duration-300"
+                        className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
                         style={{
-                          objectFit: "contain",
-                          objectPosition: "center",
+                          width: 'auto',
+                          height: 'auto',
+                          maxWidth: '100%',
+                          maxHeight: '100%',
                         }}
                         onError={(e) => {
                           // Fallback to text if image fails to load
@@ -158,17 +159,29 @@ const OurClients: React.FC = () => {
                           const parent = target.parentElement;
                           if (parent) {
                             parent.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-gray-100 rounded-lg">
-                              <span class="text-gray-600 font-semibold text-xs md:text-sm text-center px-2">${client.name}</span>
+                              <span class="text-gray-600 font-semibold text-xs md:text-sm text-center px-2 leading-tight">${client.name}</span>
                             </div>`;
                           }
                         }}
                       />
                     </div>
+                    
+                    {/* Subtle overlay on hover */}
+                    <div className="absolute inset-0 bg-blue-50 opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-2xl"></div>
                   </div>
-
-                  {/* Client Name (hidden by default, shown on hover) */}
-                  <div className="mt-3 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <p className="text-sm font-medium text-gray-700">
+                </div>
+              ))}
+            </div>
+            
+            {/* Client names row - shown below logos */}
+            <div className="flex items-center justify-between mt-6">
+              {getCurrentSlideClients().map((client, index) => (
+                <div
+                  key={`name-${currentIndex}-${index}`}
+                  className="flex-1 flex justify-center"
+                >
+                  <div className="text-center opacity-70 group-hover:opacity-100 transition-opacity duration-300">
+                    <p className="text-xs md:text-sm font-medium text-gray-600 leading-tight px-2">
                       {client.name}
                     </p>
                   </div>
@@ -180,22 +193,22 @@ const OurClients: React.FC = () => {
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-6 bg-white hover:bg-blue-600 text-gray-700 hover:text-white p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-10 border border-gray-200"
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-8 bg-white hover:bg-blue-600 text-gray-700 hover:text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-10 border border-gray-200"
             aria-label="Previous clients"
           >
-            <ChevronLeft className="h-5 w-5" />
+            <ChevronLeft className="h-6 w-6" />
           </button>
 
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-6 bg-white hover:bg-blue-600 text-gray-700 hover:text-white p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-10 border border-gray-200"
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-8 bg-white hover:bg-blue-600 text-gray-700 hover:text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-10 border border-gray-200"
             aria-label="Next clients"
           >
-            <ChevronRight className="h-5 w-5" />
+            <ChevronRight className="h-6 w-6" />
           </button>
 
           {/* Slide Indicators */}
-          <div className="flex justify-center mt-8 space-x-2">
+          <div className="flex justify-center mt-10 space-x-3">
             {Array.from({ length: totalSlides }).map((_, index) => (
               <button
                 key={index}
@@ -203,38 +216,14 @@ const OurClients: React.FC = () => {
                   setCurrentIndex(index);
                   setAutoplay(false);
                 }}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                className={`h-3 rounded-full transition-all duration-300 ${
                   index === currentIndex
-                    ? "bg-blue-600 w-8"
-                    : "bg-gray-300 hover:bg-blue-400"
+                    ? "bg-blue-600 w-10"
+                    : "bg-gray-300 hover:bg-blue-400 w-3"
                 }`}
                 aria-label={`Go to slide ${index + 1}`}
               />
             ))}
-          </div>
-        </div>
-
-        {/* Client Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
-          <div className="text-center bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div className="text-4xl md:text-5xl font-bold text-blue-600 mb-2">
-              40+
-            </div>
-            <div className="text-gray-600 font-medium">Trusted Clients</div>
-          </div>
-          <div className="text-center bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div className="text-4xl md:text-5xl font-bold text-blue-600 mb-2">
-              250+
-            </div>
-            <div className="text-gray-600 font-medium">Projects Delivered</div>
-          </div>
-          <div className="text-center bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div className="text-4xl md:text-5xl font-bold text-blue-600 mb-2">
-              18+
-            </div>
-            <div className="text-gray-600 font-medium">
-              Years of Partnership
-            </div>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { Award, Users, Clock, Building } from "lucide-react";
 
 const AboutUs: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="About" className="py-20 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -20,14 +20,14 @@ const AboutUs: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-900">Our Story</h3>
-            <p className="text-gray-700">
+            <p className="text-gray-700 text-justify">
               IBS CONSULTANTS are an established consortium of multidisciplined
               professional engineers working together with the aim and objective
               of providing total consultancy for building services from a single
               window. Thus we are in a position to make significant
-              contributions to project covering:
+              contributions to our projects:
             </p>
-            <p className="text-gray-700">
+            <p className="text-gray-700 text-justify">
               Our strength lies in the apex body of competent engineers
               qualified and well experienced in India and abroad. The curriculum
               vitae of key personnel of consultants team stands testimony to the
