@@ -38,7 +38,6 @@ const OurClients: React.FC = () => {
       name: "KENT CONSTRUCTIONS",
       logo: "images/clients/LOGOS/KENT CONSTRUCTIONS.jpg",
     },
-    { name: "KOCHI METRO", logo: "images/clients/LOGOS/KOCHI METRO RAIL LIMITED.jpg" },
     { name: "LUXON TATA", logo: "images/clients/LOGOS/LUXON TATA.jpg" },
     {
       name: "MANNAM MEMORIAL",
