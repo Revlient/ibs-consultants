@@ -60,10 +60,10 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <img src="images/logo.jpg" className='h-12 w-12' alt="" />
+            <img src="images/logo.jpg" className='h-16 w-16' alt="" />
             <div className='flex flex-col '>
-              <span className={`ml-2 text-lg font-bold leading-none ${shouldUseDarkText ? 'text-black' : 'text-white'}`}>IBS Consultants</span> 
-              <span className={`ml-2 text-xs font-semibold leading-none ${shouldUseDarkText ? 'text-black' : 'text-white'}`}>Intelligent Building System</span>
+              <span className={`ml-2 text-xl font-bold leading-none ${shouldUseDarkText ? 'text-black' : 'text-white'}`}>IBS Consultants</span> 
+              <span className={`ml-2 text-lg font-semibold leading-none ${shouldUseDarkText ? 'text-black' : 'text-white'}`}>Intelligent Building Systems</span>
             </div>
           </Link>
 

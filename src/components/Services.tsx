@@ -64,9 +64,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       </div>
       <div className="p-6">
         <div className="flex items-center mb-4">
-          {IconComponent && (
+          {/* {IconComponent && (
             <IconComponent className="h-6 w-6 text-blue-600 mr-2" />
-          )}
+          )} */}
           <h3 className="text-xl font-bold text-gray-900">{title}</h3>
         </div>
         <p className="text-gray-700">

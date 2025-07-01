@@ -71,6 +71,32 @@ const OurClients: React.FC = () => {
     },
     { name: "TRANSASIA", logo: "images/clients/LOGOS/TRANSASIA.jpg" },
     { name: "ULTIMA", logo: "images/clients/LOGOS/ULTIMA.jpg" },
+
+    { name: "ABBAAM", logo: "images/clients/LOGOS/ABBAAM.png" },
+  { name: "AHALYA EYE HOSPITAL FOUNDATION", logo: "images/clients/LOGOS/AHALYA EYE HOSPITAL FOUNDATION.jpg" },
+  { name: "AIRTEL", logo: "images/clients/LOGOS/AIRTEL.jpg" },
+  { name: "AKSA", logo: "images/clients/LOGOS/AKSA.png" },
+  { name: "AMALA INSTITUTE OF MEDICAL SCIENCES", logo: "images/clients/LOGOS/AMALA INSTITUTE OF MEDICAL SCIENCES.jpg" },
+  { name: "CAMELOT CONVENTION CENTER", logo: "images/clients/LOGOS/CAMELOT CONVENTION CENTER.jpg" },
+  { name: "CARGOMAR", logo: "images/clients/LOGOS/CARGOMAR.png" },
+  { name: "CMS", logo: "images/clients/LOGOS/CMS.jpg" },
+  { name: "DREAMFLOWER", logo: "images/clients/LOGOS/DREAMFLOWER.jpg" },
+  { name: "EVM", logo: "images/clients/LOGOS/EVM.png" },
+  { name: "FRANCIS ALUKKAS", logo: "images/clients/LOGOS/FRANCIS ALUKKAS.png" },
+  { name: "GIRIDEEPAM CONVENTION CENTER", logo: "images/clients/LOGOS/GIRIDEEPAM CONVENTION CENTER.png" },
+  { name: "ICDKOLLAM", logo: "images/clients/LOGOS/ICDKOLLAM.png" },
+  { name: "INSIGHT MEDIA CITY", logo: "images/clients/LOGOS/INSIGHT MEDIA CITY.png" },
+  { name: "JAYALAKSHMI", logo: "images/clients/LOGOS/JAYALAKSHMI.jpg" },
+  { name: "JGT LIVING SPACES LOGO", logo: "images/clients/LOGOS/JGT LIVING SPACES LOGO.jpg" },
+  { name: "JOY ALLUKAS", logo: "images/clients/LOGOS/JOY ALLUKAS.jpg" },
+  { name: "KAMCO", logo: "images/clients/LOGOS/KAMCO.png" },
+  { name: "LEXUS KOCHI", logo: "images/clients/LOGOS/LEXUS KOCHI.png" },
+  { name: "MACFAST", logo: "images/clients/LOGOS/MACFAST.jpg" },
+  { name: "NM ROYAL COUNTY", logo: "images/clients/LOGOS/NM ROYAL COUNTY.jpg" },
+  { name: "REGANT LAKE HOTEL", logo: "images/clients/LOGOS/REGANT LAKE HOTEL.png" },
+  { name: "SKYLINE", logo: "images/clients/LOGOS/SKYLINE.png" },
+  { name: "SMART ENGINEERING DESIGN SOLUTIONS", logo: "images/clients/LOGOS/SMART ENGINEERING DESIGN SOLUTIONS.png" },
+  { name: "TIERRA FOODS", logo: "images/clients/LOGOS/TIERRA FOODS.jpg" }
   ];
 
   const itemsPerSlide = 5;
