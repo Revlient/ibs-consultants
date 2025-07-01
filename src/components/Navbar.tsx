@@ -69,12 +69,12 @@ const Navbar: React.FC = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <NavLink to="/" label="Home" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
-            <NavLink to="/#about" label="About" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
-            <NavLink to="/#services" label="Services" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#" label="Home" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#About" label="About" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#Services" label="Services" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
             <NavLink to="/projects" label="Projects" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
-            <NavLink to="/#clients" label="Our clients" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
-            <NavLink to="/#contact" label="Contact" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#Clients" label="Our clients" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
+            <NavLink to="/#Contact" label="Contact" shouldUseDarkText={shouldUseDarkText} onClick={handleNavClick} />
           </div>
 
           {/* Mobile Menu Button */}
@@ -95,12 +95,12 @@ const Navbar: React.FC = () => {
         {isOpen && (
           <div className="md:hidden bg-slate-400 rounded-lg p-2 mt-4 pb-4">
             <div className="flex flex-col space-y-4"> 
-              <MobileNavLink to="/" label="Home" onClick={handleNavClick} />
-              <MobileNavLink to="/About" label="About" onClick={handleNavClick} />
-              <MobileNavLink to="/services" label="Services" onClick={handleNavClick} />
+              <MobileNavLink to="/#" label="Home" onClick={handleNavClick} />
+              <MobileNavLink to="/#About" label="About" onClick={handleNavClick} />
+              <MobileNavLink to="/#Services" label="Services" onClick={handleNavClick} />
               <MobileNavLink to="/projects" label="Projects" onClick={handleNavClick} />
-              <MobileNavLink to="/clients" label="Clients" onClick={handleNavClick} />
-              <MobileNavLink to="/contact" label="Contact" onClick={handleNavClick} />
+              <MobileNavLink to="/#Clients" label="Clients" onClick={handleNavClick} />
+              <MobileNavLink to="/#Contact" label="Contact" onClick={handleNavClick} />
             </div>
           </div>
         )}
