@@ -32,7 +32,7 @@ export const services: Service[] = [
   {
     id: '5',
     title: 'Plumbing Systems',
-    description: 'Complete water and waste management solutions for buildings and infrastructure. Services cover potable water supply, hot water systems (including solar), drainage, sewage treatment, rainwater harvesting, and solid waste management — all designed for sustainability, hygiene, and efficiency.',
+    description: 'Complete water and waste management solutions for buildings and infrastructure.',
     icon: 'MapPin',
     imageUrl: 'images/services/plumbing.png'
   },

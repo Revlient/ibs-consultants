@@ -25,7 +25,7 @@ const AboutUs: React.FC = () => {
               professional engineers working together with the aim and objective
               of providing total consultancy for building services from a single
               window. Thus we are in a position to make significant
-              contributions to our projects:
+              contributions to our projects
             </p>
             <p className="text-gray-700 text-justify">
               Our strength lies in the apex body of competent engineers
