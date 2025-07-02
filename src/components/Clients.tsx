@@ -80,7 +80,6 @@ const OurClients: React.FC = () => {
   { name: "CAMELOT CONVENTION CENTER", logo: "images/clients/LOGOS/CAMELOT CONVENTION CENTER.jpg" },
   { name: "CARGOMAR", logo: "images/clients/LOGOS/CARGOMAR.png" },
   { name: "CMS", logo: "images/clients/LOGOS/CMS.jpg" },
-  { name: "DREAMFLOWER", logo: "images/clients/LOGOS/DREAMFLOWER.jpeg" },
   { name: "EVM", logo: "images/clients/LOGOS/EVM.png" },
   { name: "FRANCIS ALUKKAS", logo: "images/clients/LOGOS/FRANCIS ALUKKAS.png" },
   { name: "GIRIDEEPAM CONVENTION CENTER", logo: "images/clients/LOGOS/GIRIDEEPAM CONVENTION CENTER.png" },
