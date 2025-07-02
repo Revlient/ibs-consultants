@@ -1008,7 +1008,7 @@ export const projects: Project[] = [
   },
   {
     id: "31",
-    title: "Tiruvalla Medical Mission Hospital (TMM Hospital )",
+    title: "TIRUVALLA MEDICAL MISSION HOSPITAL (TMM HOSPITAL )",
     category: "Hospitals",
     description:
       "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
@@ -1133,7 +1133,7 @@ export const projects: Project[] = [
 
   {
     id: "35",
-    title: "AUTOBAHN Trucking",
+    title: "AUTOBAHN TRUCKING",
     category: "Showroom",
     description:
       "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
@@ -1311,42 +1311,12 @@ export const projects: Project[] = [
       },
     ],
   },
-   {
-    id: "41",
-    title: "NIPPON TOYOTA",
-    category: "Showroom",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/SHOWROOM PROJECTS/NIPPON TOYOTA1.jpg",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
-
+  
   //Hotels and Resorts
 
   {
     id: "1",
-    title: "Abaam Kochi",
+    title: "ABAAM KOCHI",
     category: "Hotels and Resorts",
     description:
       "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
@@ -1406,7 +1376,7 @@ export const projects: Project[] = [
   },
   {
     id: "43",
-    title: "1. Ramada by Wyndham Kochi ",
+    title: "RAMADA BY WYNDHAM KOCHI",
     category: "Hotels and Resorts",
     description:
       "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
