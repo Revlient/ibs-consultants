@@ -7,7 +7,6 @@ const OurClients: React.FC = () => {
 
   // Sample client logos - in a real application, these would be actual client logos
   const clients = [
-    { name: "ABBAM", logo: "images/clients/LOGOS/ABBAM.avif" },
     { name: "ADLUX", logo: "images/clients/LOGOS/ADLUX.jpg" },
     { name: "ASIANET", logo: "images/clients/LOGOS/ASIANET.jpg" },
     {
