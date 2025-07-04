@@ -1128,36 +1128,7 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    id: "31",
-    title: "TIRUVALLA MEDICAL MISSION HOSPITAL (TMM HOSPITAL )",
-    category: "Hospitals",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/HOSPITAL PROJECTS/TMM.jpg",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
+
   {
     id: "32",
     title: "UNITY HOSPITAL, KUNNAMKULAM ",
@@ -1220,37 +1191,7 @@ export const projects: Project[] = [
       },
     ],
   },
-   {
-    id: "34",
-    title: "TRANSASIA CYBERPARK, INFOPARK KAKKANAD ",
-    category: "Office",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/OFFICE BUILDINGS/TRANSASIA.webp",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
-
+  
   //Showroom
 
   {
@@ -1403,36 +1344,7 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    id: "40",
-    title: "NIPPON TOYOTA",
-    category: "Showroom",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/SHOWROOM PROJECTS/NIPPON TOYOTA1.jpg",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
+ 
   
   //Hotels and Resorts
 
@@ -1496,36 +1408,7 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    id: "43",
-    title: "RAMADA BY WYNDHAM KOCHI",
-    category: "Hotels and Resorts",
-    description:
-      "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
-    shortDescription:
-      "Enim ea labore velit anim tempor culpa cillum in aliqua aliquip nostrud.",
-    location: "",
-    year: 2024,
-    client: "",
-    area: "",
-    imageUrl:
-      "images/projects/HOTELS AND RESORTS/RAMADA RESORT KUMBALAM 1.jpg",
-    galleryImages: [
-      '',
-    ],
-    specifications: [
-      { label: "Tier Level", value: "Tier IV" },
-      { label: "Power Capacity", value: "25 MW" },
-      {
-        label: "Cooling System",
-        value: "Liquid cooling with free cooling capabilities",
-      },
-      {
-        label: "Security Features",
-        value: "Biometric access, 24/7 monitoring, mantrap entries",
-      },
-    ],
-  },
+ 
   {
     id: "44",
     title: "REGENT LAKE PALACE KOLLAM",
