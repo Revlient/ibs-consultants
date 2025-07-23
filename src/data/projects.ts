@@ -1380,7 +1380,7 @@ export const projects: Project[] = [
   },
   {
     id: "42",
-    title: "EVM HOTELS MOUNTAIB CLUB LUXURY RESORT CHINNAKAL MUNNAR",
+    title: "EVM HOTELS MOUNTAIN CLUB LUXURY RESORT CHINNAKAL MUNNAR",
     category: "Hotels and Resorts",
     description:
       "Id incididunt velit enim excepteur magna magna adipisicing dolor dolor occaecat consectetur aute. Adipisicing eiusmod ad ad eu magna eiusmod sunt mollit sit pariatur nulla aliquip. Quis proident mollit ad irure duis do fugiat laborum reprehenderit minim proident ut. Occaecat nostrud culpa cillum officia eu excepteur. Irure amet officia in tempor dolore. Reprehenderit qui sint occaecat elit ipsum veniam excepteur minim tempor.",
